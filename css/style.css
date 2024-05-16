@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.wrapper__app {
+  padding-top: 206px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.text {
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+}
+
+.btn {
+  width: 500px;
+  height: 100px;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  color: #fff;
+  background: #4191ff;
+}
+
+.btn:hover {
+  border: 3px solid black;
+  transition: 0.5s ease-in-out;
+  background-color: blueviolet;
+}
+
+.wrapper__app-reset {
+  text-align: center;
+}
+
+.btn__reset {
+  width: 500px;
+  height: 100px;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  color: #fff;
+  background: red;
+}
+
+.btn__reset:hover {
+  border: 3px solid black;
+}
